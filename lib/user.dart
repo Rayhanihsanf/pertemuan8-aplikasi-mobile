@@ -51,6 +51,9 @@ class UserInfoScreen extends StatelessWidget {
               const Text(
                 'Rayhan Ihsan Fadhilah',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),const Text(
+                '1126180062 | Teknik Informatika',
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
                 const SizedBox(height: 24),
               const Text(
