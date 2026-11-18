@@ -39,7 +39,13 @@ class UserInfoScreen extends StatelessWidget {
                     width: 3, // ketebalan garis
                   ),
                 ),
-               
+                child: CircleAvatar(
+                  radius: 90,
+                  backgroundColor: Colors.grey,
+                  backgroundImage: const NetworkImage(
+                    'https://i.ibb.co.com/ccMq2yRN/barista2.jpg',
+                  ),
+                ),
               ),
               const SizedBox(height: 16),
               const Text(
